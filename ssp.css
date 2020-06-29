@@ -76,8 +76,8 @@
 	outline-offset: -2px;
 }
 .mdvle blockquote {
-	border-left: .25em solid var(--border);
-    	background-color: var(--c-bg);
+	border-left: .25em solid #e1e4e9;
+    	background-color: #f4f5f7;
     	padding: 1em;
 	margin-bottom: 1em;
 	margin: 0;
