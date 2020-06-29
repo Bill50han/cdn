@@ -76,38 +76,16 @@
 	outline-offset: -2px;
 }
 .mdvle blockquote {
-	font-size: 1em;
-	font-style: normal;
-	padding: 30px 38px;
-	margin: 0 0 15px;
-	position: relative;
-	line-height: 1.8;
-	text-indent: 0;
-	border: none;
-	color: #888;
-}
-.mdvle blockquote:before {
-	content: "“";
-	left: 12px;
-	top: 0;
-	color: #E0E0E0;
-	font-size: 4em;
-	font-family: Arial, serif;
-	line-height: 1em;
-	font-weight: 700;
-	position: absolute;
-}
-.mdvle blockquote:after {
-	content: "”";
-	right: 12px;
-	bottom: -26px;
-	color: #E0E0E0;
-	font-size: 4em;
-	font-family: Arial, serif;
-	line-height: 1em;
-	font-weight: 700;
-	position: absolute;
-	bottom: -31px;
+	border-left: .25em solid var(--border);
+    	background-color: var(--c-bg);
+    	padding: 1em;
+	margin-bottom: 1em;
+	margin: 0;
+	display: block;
+    	margin-block-start: 1em;
+    	margin-block-end: 1em;
+    	margin-inline-start: 40px;
+    	margin-inline-end: 40px;
 }
 .mdvle strong, dfn {
 	font-weight: 700;
