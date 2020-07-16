@@ -64,6 +64,11 @@
 	padding: 0;
 	line-height: 1.8;
 }
+.mdvle blockquote p {
+	margin: 0;
+	padding: 0;
+	line-height: 1.8;
+}
 .mdvle a {
 	color: #f22f27;
 	text-decoration: none;
@@ -78,7 +83,7 @@
 .mdvle blockquote {
 	border-left: .25em solid #e1e4e9;
     	background-color: #f4f5f7;
-    	padding: 1em;
+    	padding: 0.5em;
 	margin-bottom: 1em;
 	margin: 0;
 	display: block;
